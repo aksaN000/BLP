@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "response": "def max_chain_length(lst): return max(lst)"
+  },
+  {
+    "id": 2,
+    "response": "def first_repeated_char(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 3,
+    "response": "def get_ludic(n): return n == n[::-1]"
+  },
+  {
+    "id": 4,
+    "response": "def reverse_words(n): return n[::-1]"
+  },
+  {
+    "id": 5,
+    "response": "def prime_num(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 6,
+    "response": "def radian_degree(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 7,
+    "response": "def find_literals(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 8,
+    "response": "def bell_Number(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 9,
+    "response": "def floor_Min(lst): return min(lst)"
+  },
+  {
+    "id": 10,
+    "response": "def remove_kth_element(n): return sum(n)"
+  },
+  {
+    "id": 11,
+    "response": "def max_of_nth(lst): return max(lst)"
+  },
+  {
+    "id": 12,
+    "response": "def merge(a, b): return (a[0], a[-1])"
+  },
+  {
+    "id": 13,
+    "response": "def maximum_value(lst): return max(lst)"
+  },
+  {
+    "id": 14,
+    "response": "def cummulative_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 15,
+    "response": "def average_tuple(tup): return len(tup)"
+  },
+  {
+    "id": 16,
+    "response": "def tuple_modulo(tup): return len(tup)"
+  },
+  {
+    "id": 17,
+    "response": "def min_Jumps(lst): return min(lst)"
+  },
+  {
+    "id": 18,
+    "response": "def div_list(lst): return sum(lst)"
+  },
+  {
+    "id": 19,
+    "response": "def move_num(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 20,
+    "response": "def largest_subset(n): return n % 2 == 0"
+  },
+  {
+    "id": 21,
+    "response": "def increment_numerics(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 22,
+    "response": "def get_median(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 23,
+    "response": "def nth_nums(n): return sum(n)"
+  },
+  {
+    "id": 24,
+    "response": "def is_upper(n): return n.upper()"
+  },
+  {
+    "id": 25,
+    "response": "def swap_List(lst): return sum(lst)"
+  },
+  {
+    "id": 26,
+    "response": "def triangle_area(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 27,
+    "response": "def find_First_Missing(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 28,
+    "response": "def replace_spaces(n): return sum(n)"
+  },
+  {
+    "id": 29,
+    "response": "def Split(n): return sum(n)"
+  },
+  {
+    "id": 30,
+    "response": "def get_coordinates(n): return len(n)"
+  },
+  {
+    "id": 31,
+    "response": "def replace_spaces(n): return n[::-1]"
+  },
+  {
+    "id": 32,
+    "response": "def move_zero(n): return sum(n)"
+  },
+  {
+    "id": 33,
+    "response": "def pair_OR_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 34,
+    "response": "def even_Power_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 35,
+    "response": "def heap_sort(lst): return sorted(lst)"
+  },
+  {
+    "id": 36,
+    "response": "def Check_Solution(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 37,
+    "response": "def noprofit_noloss(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 38,
+    "response": "def wind_chill(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 39,
+    "response": "def sample_nam(n): return sum(n)"
+  },
+  {
+    "id": 40,
+    "response": "def remove_parenthesis(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 41,
+    "response": "def is_nonagonal(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 42,
+    "response": "def remove_similar_row(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 43,
+    "response": "def text_match_wordz_middle(s): return (s[0], s[-1])"
+  },
+  {
+    "id": 44,
+    "response": "def reverse_Array_Upto_K(lst): return lst[::-1]"
+  },
+  {
+    "id": 45,
+    "response": "def find_k_product(n): result = 1\n    for x in n: result *= x\n    return result"
+  },
+  {
+    "id": 46,
+    "response": "def No_of_cubes(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 47,
+    "response": "def split_upperstring(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 48,
+    "response": "def exchange_elements(n): return sum(n)"
+  },
+  {
+    "id": 49,
+    "response": "def sum_Range_list(lst): return sum(lst)"
+  },
+  {
+    "id": 50,
+    "response": "def are_Equal(n): return n == n[::-1]"
+  },
+  {
+    "id": 51,
+    "response": "def check_subset(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 52,
+    "response": "def matrix_to_list(lst): return sum(lst)"
+  },
+  {
+    "id": 53,
+    "response": "def grouping_dictionary(n): return n % 2 == 0"
+  },
+  {
+    "id": 54,
+    "response": "def rectangle_perimeter(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 55,
+    "response": "def fifth_Power_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 56,
+    "response": "def find_Min_Sum(n): return sum(n)"
+  },
+  {
+    "id": 57,
+    "response": "def first_Digit(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 58,
+    "response": "def max_occurrences(lst): return max(lst)"
+  },
+  {
+    "id": 59,
+    "response": "def Repeat(n): return sum(n)"
+  },
+  {
+    "id": 60,
+    "response": "def find_Points(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 61,
+    "response": "def max_sum_of_three_consecutive(lst): return sum(lst)"
+  },
+  {
+    "id": 62,
+    "response": "def sorted_dict(lst): return sorted(lst)"
+  },
+  {
+    "id": 63,
+    "response": "def find_max_val(n): return max(n)"
+  },
+  {
+    "id": 64,
+    "response": "def average_Even(n): return n % 2 == 0"
+  },
+  {
+    "id": 65,
+    "response": "def move_last(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 66,
+    "response": "def count_char(n): return n.count(param2)"
+  },
+  {
+    "id": 67,
+    "response": "def Check_Vow(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 68,
+    "response": "def replace(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 69,
+    "response": "def check_IP(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 70,
+    "response": "def decreasing_trend(n): return sorted(n)"
+  },
+  {
+    "id": 71,
+    "response": "def set_Right_most_Unset_Bit(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 72,
+    "response": "def max_of_three(lst): return max(lst)"
+  },
+  {
+    "id": 73,
+    "response": "def convert(n): return sum(n)"
+  },
+  {
+    "id": 74,
+    "response": "def remove_duplicate(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 75,
+    "response": "def sum_nums(lst): return sum(lst)"
+  },
+  {
+    "id": 76,
+    "response": "def remove_extra_char(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 77,
+    "response": "def validity_triangle(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 78,
+    "response": "def remove_spaces(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 79,
+    "response": "def access_key(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 80,
+    "response": "def increasing_trend(n): return sorted(n)"
+  },
+  {
+    "id": 81,
+    "response": "def smallest_Divisor(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 82,
+    "response": "def mul_list(lst): return sum(lst)"
+  },
+  {
+    "id": 83,
+    "response": "def sum_Square(lst): return sum(lst)"
+  },
+  {
+    "id": 84,
+    "response": "def count_Char(n): return n.count(param2)"
+  },
+  {
+    "id": 85,
+    "response": "def sum_Of_Primes(lst): return lst > 1 and all(lst % i != 0 for i in range(2, int(lst**0.5) + 1))"
+  },
+  {
+    "id": 86,
+    "response": "def freq_element(n): return sum(n)"
+  },
+  {
+    "id": 87,
+    "response": "def recur_gcd(n): import math; return math.gcd(n, param2)"
+  },
+  {
+    "id": 88,
+    "response": "def len_complex(n): return len(n)"
+  },
+  {
+    "id": 89,
+    "response": "def min_jumps(lst): return min(lst)"
+  },
+  {
+    "id": 90,
+    "response": "def mul_consecutive_nums(n): return sum(n)"
+  },
+  {
+    "id": 91,
+    "response": "def group_element(n): return sum(n)"
+  },
+  {
+    "id": 92,
+    "response": "def last_Two_Digits(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 93,
+    "response": "def remove_multiple_spaces(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 94,
+    "response": "def extract_unique(n): return list(set(n))"
+  },
+  {
+    "id": 95,
+    "response": "def check_greater(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 96,
+    "response": "def zip_list(lst): return sum(lst)"
+  },
+  {
+    "id": 97,
+    "response": "def count_even(n): return n % 2 == 0"
+  },
+  {
+    "id": 98,
+    "response": "def sort_dict_item(lst): return sorted(lst)"
+  },
+  {
+    "id": 99,
+    "response": "def min_Swaps(lst): return min(lst)"
+  },
+  {
+    "id": 100,
+    "response": "def count_range_in_list(n): return sum(n)"
+  },
+  {
+    "id": 101,
+    "response": "def equilibrium_index(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 102,
+    "response": "def removals(n): return min(n)"
+  },
+  {
+    "id": 103,
+    "response": "def is_key_present(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 104,
+    "response": "def harmonic_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 105,
+    "response": "def sort_sublists(lst): return sum(lst)"
+  },
+  {
+    "id": 106,
+    "response": "def is_subset(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 107,
+    "response": "def count_Set_Bits(n): return n.count(param2)"
+  },
+  {
+    "id": 108,
+    "response": "def Convert(n): return sum(n)"
+  },
+  {
+    "id": 109,
+    "response": "def get_unique(n): return list(set(n))"
+  },
+  {
+    "id": 110,
+    "response": "def front_and_rear(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 111,
+    "response": "def product_Equal(n): result = 1\n    for x in n: result *= x\n    return result"
+  },
+  {
+    "id": 112,
+    "response": "def remove_duplicate(n): return sum(n)"
+  },
+  {
+    "id": 113,
+    "response": "def check_valid(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 114,
+    "response": "def count_Fac(n): return n.count(param2)"
+  },
+  {
+    "id": 115,
+    "response": "def str_to_tuple(tup): return len(tup)"
+  },
+  {
+    "id": 116,
+    "response": "def rombus_perimeter(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 117,
+    "response": "def sd_calc(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 118,
+    "response": "def alternate_elements(n): return sum(n)"
+  },
+  {
+    "id": 119,
+    "response": "def text_match(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 120,
+    "response": "def add_dict_to_tuple(tup): return [a + b for a, b in zip(tup, param2)]"
+  },
+  {
+    "id": 121,
+    "response": "def maxAverageOfPath(lst): return max(lst)"
+  },
+  {
+    "id": 122,
+    "response": "def filter_data(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 123,
+    "response": "def count_same_pair(n): return n.count(param2)"
+  },
+  {
+    "id": 124,
+    "response": "def power_base_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 125,
+    "response": "def extract_quotation(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 126,
+    "response": "def multiply_elements(n): result = 1\n    for x in n: result *= x\n    return result"
+  },
+  {
+    "id": 127,
+    "response": "def remove_char(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 128,
+    "response": "def sum_list(lst): return sum(lst)"
+  },
+  {
+    "id": 129,
+    "response": "def add_list(lst): return sum(lst)"
+  },
+  {
+    "id": 130,
+    "response": "def consecutive_duplicates(n): return sum(n)"
+  },
+  {
+    "id": 131,
+    "response": "def lateralsurface_cone(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 132,
+    "response": "def replace_specialchar(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 133,
+    "response": "def find_first_occurrence(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 134,
+    "response": "def sum_Of_Subarray_Prod(lst): return sum(lst)"
+  },
+  {
+    "id": 135,
+    "response": "def toggle_middle_bits(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 136,
+    "response": "def left_insertion(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 137,
+    "response": "def check_str(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 138,
+    "response": "def geometric_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 139,
+    "response": "def find_Index(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 140,
+    "response": "def tuple_to_dict(tup): return len(tup)"
+  },
+  {
+    "id": 141,
+    "response": "def all_Characters_Same(n): return n.count(param2)"
+  },
+  {
+    "id": 142,
+    "response": "def area_tetrahedron(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 143,
+    "response": "def rotate_right(n): return sum(n)"
+  },
+  {
+    "id": 144,
+    "response": "def check_none(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 145,
+    "response": "def divisible_by_digits(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 146,
+    "response": "def sector_area(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 147,
+    "response": "def lcs_of_three(n): return sorted(n)"
+  },
+  {
+    "id": 148,
+    "response": "def capital_words_spaces(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 149,
+    "response": "def sort_numeric_strings(lst): return sorted(lst)"
+  },
+  {
+    "id": 150,
+    "response": "def add_tuple(tup): return list(tup)"
+  },
+  {
+    "id": 151,
+    "response": "def check_min_heap(n): return min(n)"
+  },
+  {
+    "id": 152,
+    "response": "def jacobsthal_num(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 153,
+    "response": "def min_k(lst): return min(lst)"
+  },
+  {
+    "id": 154,
+    "response": "def extract_index_list(lst): return sum(lst)"
+  },
+  {
+    "id": 155,
+    "response": "def second_smallest(n): return sum(n)"
+  },
+  {
+    "id": 156,
+    "response": "def text_match_zero_one(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 157,
+    "response": "def count_reverse_pairs(n): return n[::-1]"
+  },
+  {
+    "id": 158,
+    "response": "def unique_sublists(lst): return sum(lst)"
+  },
+  {
+    "id": 159,
+    "response": "def is_decimal(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 160,
+    "response": "def unique_Element(n): return list(set(n))"
+  },
+  {
+    "id": 161,
+    "response": "def arc_length(n): return len(n)"
+  },
+  {
+    "id": 162,
+    "response": "def check_monthnumber_number(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 163,
+    "response": "def find_Min_Diff(n): return min(n)"
+  },
+  {
+    "id": 164,
+    "response": "def number_ctr(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 165,
+    "response": "def is_polite(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 166,
+    "response": "def pair_wise(n): return sum(n)"
+  },
+  {
+    "id": 167,
+    "response": "def get_Pairs_Count(n): return sum(n)"
+  },
+  {
+    "id": 168,
+    "response": "def check_Odd_Parity(n): return n % 2 == 0"
+  },
+  {
+    "id": 169,
+    "response": "def Diff(n): return sum(n)"
+  },
+  {
+    "id": 170,
+    "response": "def odd_Num_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 171,
+    "response": "def check_expression(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 172,
+    "response": "def remove_length(n): return len(n)"
+  },
+  {
+    "id": 173,
+    "response": "def occurance_substring(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 174,
+    "response": "def check_email(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 175,
+    "response": "def odd_position(n): return n % 2 == 0"
+  },
+  {
+    "id": 176,
+    "response": "def count_vowels(n): return n.count(param2)"
+  },
+  {
+    "id": 177,
+    "response": "def find_Sum(n): return sum(n)"
+  },
+  {
+    "id": 178,
+    "response": "def pack_consecutive_duplicates(n): return sum(n)"
+  },
+  {
+    "id": 179,
+    "response": "def unique_sublists(lst): return sum(lst)"
+  },
+  {
+    "id": 180,
+    "response": "def find_combinations(n): return sum(n)"
+  },
+  {
+    "id": 181,
+    "response": "def count_Divisors(n): return n % 2 == 0"
+  },
+  {
+    "id": 182,
+    "response": "def Odd_Length_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 183,
+    "response": "def rgb_to_hsv(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 184,
+    "response": "def mul_even_odd(n): return n % 2 == 0"
+  },
+  {
+    "id": 185,
+    "response": "def tuple_str_int(tup): return len(tup)"
+  },
+  {
+    "id": 186,
+    "response": "def right_insertion(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 187,
+    "response": "def text_match_three(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 188,
+    "response": "def new_tuple(tup): return list(tup)"
+  },
+  {
+    "id": 189,
+    "response": "def perimeter_polygon(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 190,
+    "response": "def even_position(n): return n % 2 == 0"
+  },
+  {
+    "id": 191,
+    "response": "def remove_nested(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 192,
+    "response": "def count_list(n): return sum(n)"
+  },
+  {
+    "id": 193,
+    "response": "def last(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 194,
+    "response": "def text_starta_endb(s): return (s[0], s[-1])"
+  },
+  {
+    "id": 195,
+    "response": "def cheap_items(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 196,
+    "response": "def return_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 197,
+    "response": "def sum_in_Range(lst): return sum(lst)"
+  },
+  {
+    "id": 198,
+    "response": "def _sum(lst): return sum(lst)"
+  },
+  {
+    "id": 199,
+    "response": "def left_Rotate(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 200,
+    "response": "def remove_all_spaces(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 201,
+    "response": "def test_three_equal(n): return n == n[::-1]"
+  },
+  {
+    "id": 202,
+    "response": "def count_Rotation(n): return n.count(param2)"
+  },
+  {
+    "id": 203,
+    "response": "def is_Perfect_Square(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 204,
+    "response": "def is_Product_Even(n): return n % 2 == 0"
+  },
+  {
+    "id": 205,
+    "response": "def max_sum_list(lst): return sum(lst)"
+  },
+  {
+    "id": 206,
+    "response": "def max_run_uppercase(lst): return max(lst)"
+  },
+  {
+    "id": 207,
+    "response": "def first_odd(n): return n % 2 == 0"
+  },
+  {
+    "id": 208,
+    "response": "def check_K(n): return len(n)"
+  },
+  {
+    "id": 209,
+    "response": "def check_smaller(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 210,
+    "response": "def count_variable(n): return n.count(param2)"
+  },
+  {
+    "id": 211,
+    "response": "def check_identical(n): return list(n)"
+  },
+  {
+    "id": 212,
+    "response": "def road_rd(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 213,
+    "response": "def string_length(s): return len(s)"
+  },
+  {
+    "id": 214,
+    "response": "def rombus_area(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 215,
+    "response": "def sort_by_dnf(lst): return sorted(lst)"
+  },
+  {
+    "id": 216,
+    "response": "def clear_tuple(tup): return ()"
+  },
+  {
+    "id": 217,
+    "response": "def div_of_nums(n): return sum(n)"
+  },
+  {
+    "id": 218,
+    "response": "def lower_ctr(n): return n.lower()"
+  },
+  {
+    "id": 219,
+    "response": "def count_duplic(n): return n.count(param2)"
+  },
+  {
+    "id": 220,
+    "response": "def check_monthnum_number(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 221,
+    "response": "def merge_dictionaries(a, b): import math; return math.gcd(a, b)"
+  },
+  {
+    "id": 222,
+    "response": "def pass_validity(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 223,
+    "response": "def check_substring(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 224,
+    "response": "def remove_even(n): return n % 2 == 0"
+  },
+  {
+    "id": 225,
+    "response": "def access_elements(n): return sum(n)"
+  },
+  {
+    "id": 226,
+    "response": "def check_Type_Of_Triangle(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 227,
+    "response": "def sum_column(lst): return sum(lst)"
+  },
+  {
+    "id": 228,
+    "response": "def count_alpha_dig_spl(n): return n.count(param2)"
+  },
+  {
+    "id": 229,
+    "response": "def second_frequent(n): return sorted(n)"
+  },
+  {
+    "id": 230,
+    "response": "def round_up(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 231,
+    "response": "def count_Pairs(n): return n.count(param2)"
+  },
+  {
+    "id": 232,
+    "response": "def extract_max(lst): return max(lst)"
+  },
+  {
+    "id": 233,
+    "response": "def get_key(n): return sum(n)"
+  },
+  {
+    "id": 234,
+    "response": "def generate_matrix(n): return sorted(n)"
+  },
+  {
+    "id": 235,
+    "response": "def slope(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 236,
+    "response": "def max_sub_array_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 237,
+    "response": "def cube_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 238,
+    "response": "def min_Swaps(lst): return min(lst)"
+  },
+  {
+    "id": 239,
+    "response": "def sort_tuple(lst): return sorted(lst)"
+  },
+  {
+    "id": 240,
+    "response": "def Check_Solution(n): return n[::-1]"
+  },
+  {
+    "id": 241,
+    "response": "def get_inv_count(n): return n.count(param2)"
+  },
+  {
+    "id": 242,
+    "response": "def get_odd_occurence(n): return n % 2 == 0"
+  },
+  {
+    "id": 243,
+    "response": "def nth_super_ugly_number(n): return sum(n)"
+  },
+  {
+    "id": 244,
+    "response": "def get_Number(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 245,
+    "response": "def find_Digits(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 246,
+    "response": "def find_platform(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 247,
+    "response": "def lcopy(n): return sum(n)"
+  },
+  {
+    "id": 248,
+    "response": "def area_trapezium(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 249,
+    "response": "def Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 250,
+    "response": "def is_triangleexists(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 251,
+    "response": "def Sum_of_Inverse_Divisors(lst): return sum(lst)"
+  },
+  {
+    "id": 252,
+    "response": "def remove_negs(n): return sum(n)"
+  },
+  {
+    "id": 253,
+    "response": "def sum_of_odd_Factors(lst): return sum(lst)"
+  },
+  {
+    "id": 254,
+    "response": "def raw_heap(n): return sum(n)"
+  },
+  {
+    "id": 255,
+    "response": "def check_Even_Parity(n): return n % 2 == 0"
+  },
+  {
+    "id": 256,
+    "response": "def find_Min_Swaps(n): return min(n)"
+  },
+  {
+    "id": 257,
+    "response": "def listify_list(lst): return sum(lst)"
+  },
+  {
+    "id": 258,
+    "response": "def count_list(n): return sum(n)"
+  },
+  {
+    "id": 259,
+    "response": "def sub_lists(lst): return sum(lst)"
+  },
+  {
+    "id": 260,
+    "response": "def check_alphanumeric(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 261,
+    "response": "def anagram_lambda(n): return sum(n)"
+  },
+  {
+    "id": 262,
+    "response": "def n_common_words(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 263,
+    "response": "def find_longest_conseq_subseq(n): return sorted(n)"
+  },
+  {
+    "id": 264,
+    "response": "def palindrome_lambda(n): return n == n[::-1]"
+  },
+  {
+    "id": 265,
+    "response": "def ntimes_list(lst): return sum(lst)"
+  },
+  {
+    "id": 266,
+    "response": "def check_monthnumb(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 267,
+    "response": "def min_Num(lst): return min(lst)"
+  },
+  {
+    "id": 268,
+    "response": "def length_Of_Last_Word(n): return len(n)"
+  },
+  {
+    "id": 269,
+    "response": "def remove_list_range(lst): return sum(lst)"
+  },
+  {
+    "id": 270,
+    "response": "def sum_positivenum(lst): return sum(lst)"
+  },
+  {
+    "id": 271,
+    "response": "def are_Rotations(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 272,
+    "response": "def check_subset(n): return sum(n)"
+  },
+  {
+    "id": 273,
+    "response": "def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)"
+  },
+  {
+    "id": 274,
+    "response": "def check_Concat(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 275,
+    "response": "def min_difference(lst): return min(lst)"
+  },
+  {
+    "id": 276,
+    "response": "def lcm(n): import math; return abs(n*param2) // math.gcd(n, param2)"
+  },
+  {
+    "id": 277,
+    "response": "def sort_String(lst): return sorted(lst)"
+  },
+  {
+    "id": 278,
+    "response": "def check_tuples(n): return len(n)"
+  },
+  {
+    "id": 279,
+    "response": "def text_match(s): return (s[0], s[-1])"
+  },
+  {
+    "id": 280,
+    "response": "def Check_Solution(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 281,
+    "response": "def sum_even_odd(lst): return sum(lst)"
+  },
+  {
+    "id": 282,
+    "response": "def parallelogram_perimeter(n): return n == n[::-1]"
+  },
+  {
+    "id": 283,
+    "response": "def div_of_nums(n): return sum(n)"
+  },
+  {
+    "id": 284,
+    "response": "def all_Bits_Set_In_The_Given_Range(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 285,
+    "response": "def is_Isomorphic(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 286,
+    "response": "def sum_num(lst): return sum(lst)"
+  },
+  {
+    "id": 287,
+    "response": "def is_odd(n): return n % 2 == 0"
+  },
+  {
+    "id": 288,
+    "response": "def substract_elements(s): return len(s)"
+  },
+  {
+    "id": 289,
+    "response": "def reverse_list_lists(lst): return sum(lst)"
+  },
+  {
+    "id": 290,
+    "response": "def find_Extra(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 291,
+    "response": "def same_Length(n): return len(n)"
+  },
+  {
+    "id": 292,
+    "response": "def remove_spaces(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 293,
+    "response": "def Extract(n): return sum(n)"
+  },
+  {
+    "id": 294,
+    "response": "def float_to_tuple(tup): return len(tup)"
+  },
+  {
+    "id": 295,
+    "response": "def max_sum_subseq(lst): return sum(lst)"
+  },
+  {
+    "id": 296,
+    "response": "def sort_list_last(lst): return sum(lst)"
+  },
+  {
+    "id": 297,
+    "response": "def is_Word_Present(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 298,
+    "response": "def extract_elements(n): return sum(n)"
+  },
+  {
+    "id": 299,
+    "response": "def check(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 300,
+    "response": "def match_num(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 301,
+    "response": "def num_comm_div(n): return n % 2 == 0"
+  },
+  {
+    "id": 302,
+    "response": "def find(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 303,
+    "response": "def add_consecutive_nums(a, b): return [a + b for a, b in zip(a, b)]"
+  },
+  {
+    "id": 304,
+    "response": "def sum_Of_Series(lst): return sum(lst)"
+  },
+  {
+    "id": 305,
+    "response": "def re_order(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 306,
+    "response": "def permutation_coefficient(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 307,
+    "response": "def remove_words(n): return sum(n)"
+  },
+  {
+    "id": 308,
+    "response": "def same_order(n): return sum(n)"
+  },
+  {
+    "id": 309,
+    "response": "def average_Odd(n): return n % 2 == 0"
+  },
+  {
+    "id": 310,
+    "response": "def no_of_subsequences(n): return sorted(n)"
+  },
+  {
+    "id": 311,
+    "response": "def find_Min_Sum(n): return sum(n)"
+  },
+  {
+    "id": 312,
+    "response": "def count_element_freq(n): return n.count(param2)"
+  },
+  {
+    "id": 313,
+    "response": "def add_str(s): return [a + b for a, b in zip(s, param2)]"
+  },
+  {
+    "id": 314,
+    "response": "def sum_elements(lst): return sum(lst)"
+  },
+  {
+    "id": 315,
+    "response": "def modular_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 316,
+    "response": "def radix_sort(lst): return sorted(lst)"
+  },
+  {
+    "id": 317,
+    "response": "def largest_pos(n): return sum(n)"
+  },
+  {
+    "id": 318,
+    "response": "def sqrt_root(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 319,
+    "response": "def volume_tetrahedron(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 320,
+    "response": "def get_lcm(n): import math; return abs(n*param2) // math.gcd(n, param2)"
+  },
+  {
+    "id": 321,
+    "response": "def check_isosceles(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 322,
+    "response": "def lbs(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 323,
+    "response": "def check_string(n): return len(n)"
+  },
+  {
+    "id": 324,
+    "response": "def max_sum_increasing_subsequence(lst): return sum(lst)"
+  },
+  {
+    "id": 325,
+    "response": "def parallel_lines(n): return n == n[::-1]"
+  },
+  {
+    "id": 326,
+    "response": "def capitalize_first_last_letters(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 327,
+    "response": "def get_pairs_count(n): return n % 2 == 0"
+  },
+  {
+    "id": 328,
+    "response": "def min_length(lst): return min(lst)"
+  },
+  {
+    "id": 329,
+    "response": "def jacobsthal_lucas(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 330,
+    "response": "def negative_count(n): return n.count(param2)"
+  },
+  {
+    "id": 331,
+    "response": "def min_coins(lst): return min(lst)"
+  },
+  {
+    "id": 332,
+    "response": "def check_permutation(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 333,
+    "response": "def remove_datatype(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 334,
+    "response": "def search_literal(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 335,
+    "response": "def topbottom_surfacearea(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 336,
+    "response": "def nth_items(n): return sum(n)"
+  },
+  {
+    "id": 337,
+    "response": "def first_repeated_word(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 338,
+    "response": "def string_list_to_tuple(lst): return list(lst)"
+  },
+  {
+    "id": 339,
+    "response": "def basesnum_coresspondingnum(n): return sum(n)"
+  },
+  {
+    "id": 340,
+    "response": "def find_Diff(n): return max(n)"
+  },
+  {
+    "id": 341,
+    "response": "def check_abundant(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 342,
+    "response": "def fill_spaces(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 343,
+    "response": "def count_digits(n): return n.count(param2)"
+  },
+  {
+    "id": 344,
+    "response": "def flatten_tuple(tup): return list(tup)"
+  },
+  {
+    "id": 345,
+    "response": "def toggle_F_and_L_bits(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 346,
+    "response": "def last_occurence_char(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 347,
+    "response": "def Total_Hamming_Distance(lst): return min(lst)"
+  },
+  {
+    "id": 348,
+    "response": "def longest_increasing_subsequence(n): return sorted(n)"
+  },
+  {
+    "id": 349,
+    "response": "def odd_Num_Sum(lst): return sum(lst)"
+  },
+  {
+    "id": 350,
+    "response": "def find_Max(n): return max(n)"
+  },
+  {
+    "id": 351,
+    "response": "def extract_column(n): return sum(n)"
+  },
+  {
+    "id": 352,
+    "response": "def Seq_Linear(n): return sorted(n)"
+  },
+  {
+    "id": 353,
+    "response": "def tuple_to_float(tup): return len(tup)"
+  },
+  {
+    "id": 354,
+    "response": "def Split(n): return sum(n)"
+  },
+  {
+    "id": 355,
+    "response": "def difference(n): return sum(n)"
+  },
+  {
+    "id": 356,
+    "response": "def find_Odd_Pair(n): return n % 2 == 0"
+  },
+  {
+    "id": 357,
+    "response": "def toggle_string(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 358,
+    "response": "def digit_distance_nums(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 359,
+    "response": "def max_sub_array_sum(lst): return sum(lst)"
+  },
+  {
+    "id": 360,
+    "response": "def union_elements(n): return len(n)"
+  },
+  {
+    "id": 361,
+    "response": "def assign_elements(n): return n % 2 == 0"
+  },
+  {
+    "id": 362,
+    "response": "def Find_Max_Length(n): return max(n)"
+  },
+  {
+    "id": 363,
+    "response": "def extract_values(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 364,
+    "response": "def count_Pairs(n): return n.count(param2)"
+  },
+  {
+    "id": 365,
+    "response": "def split(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 366,
+    "response": "def sum_digits(lst): return sum(lst)"
+  },
+  {
+    "id": 367,
+    "response": "def issort_list(lst): return sum(lst)"
+  },
+  {
+    "id": 368,
+    "response": "def empty_list(lst): return sum(lst)"
+  },
+  {
+    "id": 369,
+    "response": "def sort_sublists(lst): return sum(lst)"
+  },
+  {
+    "id": 370,
+    "response": "def remove_words(n): return sum(n)"
+  },
+  {
+    "id": 371,
+    "response": "def max_sum_pair_diff_lessthan_K(lst): return sum(lst)"
+  },
+  {
+    "id": 372,
+    "response": "def two_unique_nums(n): return list(set(n))"
+  },
+  {
+    "id": 373,
+    "response": "def unique_product(n): return list(set(n))"
+  },
+  {
+    "id": 374,
+    "response": "def surfacearea_cylinder(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 375,
+    "response": "def count_no(n): return sorted(n)"
+  },
+  {
+    "id": 376,
+    "response": "def is_Sub_Array(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 377,
+    "response": "def last_Digit_Factorial(n): return 1 if n <= 1 else n * last_Digit_Factorial(n-1)"
+  },
+  {
+    "id": 378,
+    "response": "def interleave_lists(lst): return sum(lst)"
+  },
+  {
+    "id": 379,
+    "response": "def find_dissimilar(n): return len(n)"
+  },
+  {
+    "id": 380,
+    "response": "def extract_even(n): return n % 2 == 0"
+  },
+  {
+    "id": 381,
+    "response": "def surface_Area(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 382,
+    "response": "def my_dict(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 383,
+    "response": "def catalan_number(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 384,
+    "response": "def find_adverbs(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 385,
+    "response": "def expensive_items(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 386,
+    "response": "def split_Arr(n): return (n[0], n[-1])"
+  },
+  {
+    "id": 387,
+    "response": "def list_tuple(lst): return list(lst)"
+  },
+  {
+    "id": 388,
+    "response": "def big_diff(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 389,
+    "response": "def perfect_squares(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 390,
+    "response": "def polar_rect(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 391,
+    "response": "def swap_List(lst): return sum(lst)"
+  },
+  {
+    "id": 392,
+    "response": "def sum_Of_product(lst): return sum(lst)"
+  },
+  {
+    "id": 393,
+    "response": "def removezero_ip(n): return n > 1 and all(n % i != 0 for i in range(2, int(n**0.5) + 1))"
+  },
+  {
+    "id": 394,
+    "response": "def diff_even_odd(n): return n % 2 == 0"
+  },
+  {
+    "id": 395,
+    "response": "def min_Swaps(lst): return min(lst)"
+  },
+  {
+    "id": 396,
+    "response": "def tuple_size(tup): return len(tup)"
+  },
+  {
+    "id": 397,
+    "response": "def find_kth(n): \n    left, right = 0, len(n)-1\n    while left <= right:\n        mid = (left+right)//2\n        if n[mid] == param2: return mid\n        elif n[mid] < param2: left = mid+1\n        else: right = mid-1\n    return -1"
+  },
+  {
+    "id": 398,
+    "response": "def armstrong_number(s): return s > 1 and all(s % i != 0 for i in range(2, int(s**0.5) + 1))"
+  },
+  {
+    "id": 399,
+    "response": "def sum_average(lst): return sum(lst)"
+  },
+  {
+    "id": 400,
+    "response": "def is_Even(n): return n % 2 == 0"
+  }
+]
