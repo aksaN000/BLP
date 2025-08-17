@@ -1,0 +1,63 @@
+Task Description
+Input: A Bangla programming prompt
+Output: A Python script that satisfies all hidden unit tests
+
+Column	Description
+id	id
+instruction	Bangla prompt (e.g., দুটি পূর্ণসংখ্যার গ.সা.গু নির্ণয় করো)
+response	Reference Python solution†
+test_cases	Hidden tests (JSON list of I/O pairs)
+Note: † present only in the Train file
+
+Example Row (Train)
+📋
+id, instruction,response,test_cases
+"1",
+"দুটি পূর্ণসংখ্যার যোগফল নির্ণয় করো",
+"import sys;a,b=map(int,sys.stdin.read().split());print(a+b)",
+"[['2 3','5'],['10 20','30']]"
+
+
+Dataset
+Trial Dataset: trial.csv
+Dev Dataset: dev_v2.csv [updated on 12:25 am, Aug 13 (Bangladesh time)]
+Test Dataset: To Be Released
+Sample Code
+Prompting: Sample_Code_Prompting_v2.ipynb
+Fine Tuning: Sample_Code_Finetuning_v2.ipynb
+Scoring: scoring.py
+Step-by-Step Workflow
+Step 1: Explore the Train data
+📋
+import pandas as pd
+print(pd.read_csv(‘trial.csv’))
+            
+Step 2: Prompt / fine-tune using the sample codes
+We provide ready-to-run notebooks with defaults that already pass ≥ 10-20% of tests.
+
+Step 3: Dev Phase
+Download the dev.csv file.
+Start with one of the sample codes above.
+Generate the submission.json file.
+Zip the submission.json as a task2_submission.zip file.
+Submit the task2_submission.zip on codabench dev phase.
+Leaderboard updates in real-time.
+
+Step 4: Test Phase
+Download the test.csv file.
+Start with one of the sample codes above.
+Generate the submission.json file.
+Zip the submission.json as a task2_submission.zip file.
+Submit the task2_submission.zip on codabench test phase.
+Leaderboard updates in real-time.
+
+Step 5: Write your system paper (Exactly 4 pages, ACL 2023 style)
+Paper template link: Link
+
+Deadline: Sep 29, 2025
+
+Evaluation
+Metric	Description
+Pass@1	% of hidden test cases that pass
+Tie-breaker	Shorter mean solution length
+All submitted code must run offline – external API calls are forbidden
